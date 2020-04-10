@@ -1,0 +1,119 @@
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+  color: #767676;
+  overflow-x: hidden;
+  /*background-image: url('images/glam-home-bg.png');
+  background-size: cover;
+  background-attachment: fixed;*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #a50a41;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  margin: 1.5em 0 0.5em 0;
+}
+
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span {
+  color: #135dc1;
+  display: block;
+  font-size: 0.75em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+h5 {
+  font-size: 1.3em;
+}
+
+h6 {
+  font-size: 1.2em;
+}
+
+p,
+li {
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  font-size: 14px;
+  color: #333333;
+  line-height: 2em;
+}
+
+nav a {
+  font-size: 16px;
+}
+
+nav .active {
+  border-bottom: 1px solid #872657;
+}
+
+a,
+header span {
+  color: #872657;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #872657;
+}
+
+.bg-glam {
+  background-color: #872657 !important;
+}
+
+.btn-glam {
+  background-color: #872657 !important;
+  color: #ffffff;
+}
+
+.btn-glam:hover {
+  color: #ffffff;
+}
+
+.border-glam {
+  border-color: #872657 !important;
+}
+
+.text-glam {
+  color: #a50a41 !important;
+}
+
+.text-glam1 {
+  color: #135dc1 !important;
+}
+
+.bg-white1 {
+  background-color: rgba(255, 255, 255, 0.7);
+}
