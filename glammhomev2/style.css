@@ -23,7 +23,7 @@ h4,
 h5,
 h6 {
   color: #a50a41;
-  font-family: "Poppins", sans-serif;
+  font-family: "Berkshire Swash", cursive;
   font-weight: 400;
   font-size: 2em;
   margin: 1.5em 0 0.5em 0;
@@ -91,6 +91,10 @@ a:hover {
 
 .bg-glam {
   background-color: #872657 !important;
+}
+
+.bg-glam-light {
+  background-color: #ffece2 !important;
 }
 
 .btn-glam {
