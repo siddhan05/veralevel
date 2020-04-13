@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
   min-height: 100%;
 }
@@ -15,7 +16,12 @@ body {
   background-attachment: fixed;*/
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #a50a41;
   font-family: "Berkshire Swash", cursive;
   font-weight: 400;
@@ -23,7 +29,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1.5em 0 0.5em 0;
 }
 
-h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span {
   color: #135dc1;
   display: block;
   font-size: 0.75em;
@@ -50,7 +61,8 @@ h6 {
   font-size: 1.2em;
 }
 
-p, li {
+p,
+li {
   font-family: "Poppins", sans-serif;
   text-align: justify;
   font-size: 14px;
@@ -63,37 +75,42 @@ nav a {
 }
 
 nav .active {
-  border-bottom: 1px solid #872657;
+  border-bottom: 1px solid #a50a41;
 }
 
 .dropdown-item:hover {
-  background-color: #872657;
+  background-color: #a50a41;
 }
 
 .dropdown-item:hover a {
   color: #ffffff;
 }
 
-a, header span {
-  color: #872657;
+a,
+header span {
+  color: #a50a41;
   font-size: 14px;
 }
 
 a:hover {
   text-decoration: none;
-  color: #872657;
+  color: #a50a41;
 }
 
 .bg-glam {
-  background-color: #872657 !important;
+  background-color: #a50a41 !important;
 }
 
 .bg-glam-light {
   background-color: #ffece2 !important;
 }
 
+.bg-glam-primary {
+  background-color: #17d9e5 !important;
+}
+
 .btn-glam {
-  background-color: #872657 !important;
+  background-color: #a50a41 !important;
   color: #ffffff;
 }
 
@@ -102,7 +119,11 @@ a:hover {
 }
 
 .border-glam {
-  border-color: #872657 !important;
+  border-color: #a50a41 !important;
+}
+
+.border-glam-light {
+  border-color: #17d9e5 !important;
 }
 
 .text-glam {
@@ -121,14 +142,11 @@ a:hover {
   height: 15px;
   width: 15px;
   background-color: #ffffff !important;
-  border: 1px solid #872657;
   border-radius: 50%;
-}
-
-#glamTestimonial .carousel-indicators li {
-  border: none !important;
+  border: none;
 }
 
 .carousel-indicators li.active {
-  background-color: #872657 !important;
+  background-color: transparent !important;
+  border: 1px solid #ffffff;
 }
